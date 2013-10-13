@@ -192,6 +192,27 @@ header h2 .search2{
 	background: url(president.jpeg) no-repeat;
 	background-position: center center;
 	background-size: cover;
+	margin-bottom: 50px;
+}
+
+.container .sidebar .side-article {
+	margin: 0 auto;
+	width: 275px;
+}
+
+.container .sidebar .side-article h3 {
+	color: blue;
+	font-family: Oswald;
+	margin-top: 7px;
+	font-size: 17px;
+	margin-bottom: 0px;
+}
+
+.container .sidebar .side-article {
+	color: rgb(185, 184, 184);
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
 }
 
 
