@@ -4,7 +4,7 @@ body {
 
 header {
 	width: 100%;
-	background: url(beer.jpeg) no-repeat;
+	background: url(deathvalley.jpeg) no-repeat;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -17,7 +17,7 @@ header {
 header .sub_header {
 	width: 100%;
 	height: 493px;
-	background: rgba(26, 80, 219, 0.76);
+	background: rgba(213, 133, 47, 0.76);
 	padding: 15px  0px;
 
 }
@@ -189,7 +189,7 @@ header h2 .search2{
 	margin: 0 auto;
 	width: 275px;
 	height: 300px;
-	background: url(president.jpeg) no-repeat;
+	background: url(oldadd.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
 	margin-bottom: 50px;
@@ -243,7 +243,8 @@ h1{
 	background: url(boyd.jpeg) no-repeat;
 	background-position: center center;
 	background-size: cover;
-	margin-left: 20px
+	margin-left: 20px;
+	position: relative;
 }
 
 .four-posts .mask {
@@ -259,9 +260,11 @@ h1{
 .four-posts h2	{
 	margin: 0;
 	font-family: Oswald;
-	margin-top: -40px;
+	
 	margin-left: 5px;
 	padding: 0;
+	position: absolute;
+	bottom: 0;
 }
 
 .four-posts .image2{
@@ -274,6 +277,7 @@ h1{
 	background-position: center center;
 	background-size: cover;
 	margin-left: -4px;
+	position: relative;
 }
 
 .four-posts .image3{
@@ -286,6 +290,7 @@ h1{
 	background-position: center center;
 	background-size: cover;
 	margin-left: -4px;
+	position: relative;
 }
 
 .four-posts .image4{
@@ -298,12 +303,17 @@ h1{
 	background-position: center center;
 	background-size: cover;
 	margin-left: -4px;
+	position: relative;
 }
 
 footer {
-
+	background: #EA6A20;
+	height: 93px;
 }
 
+footer .container .ironyard {
+	float: left;
+}
 footer .container .ironyard .logo{
 	background: url(ironyard.jpeg) no-repeat;
 	background-position: center center;
@@ -322,7 +332,8 @@ footer .container .ironyard h3 {
 
 footer .container .foot-navigation {
 	display: inline-block;
-	float: right
+	float: right;
+	margin-top: 20px;
 }
 
 footer a {
@@ -336,6 +347,67 @@ footer a:hover {
   text-decoration: underline;
 }
 
+@media (max-width: 1380px) {
+
+	.four-posts {
+	width: 1240px;
+	}
+	.four-posts .image1{
+	width: 300px;
+	height: 280px;
+	}
+	.four-posts .image2{
+	width: 300px;
+	height: 280px;
+	}
+
+	.four-posts .image3{
+	width: 300px;
+	height: 280px;
+	}
+
+	.four-posts .image4{
+	width: 300px;
+	height: 280px;
+	}
+
+	.four-posts .mask {
+	height: 280px;
+}
+
+}
+
+@media (max-width: 1180px) {
+	.four-posts {
+	width: 1040px;
+	}
+	.four-posts .image1{
+	width: 250px;
+	height: 220px;
+	}
+	.four-posts .image2{
+	width: 250px;
+	height: 220px;
+	}
+
+	.four-posts .image3{
+	width: 250px;
+	height: 220px;
+	}
+
+	.four-posts .image4{
+	width: 250px;
+	height: 220px;
+	}
+
+	.four-posts .mask {
+	height: 220px;
+}
+
+}
+
+
+
 @media (max-width: 1050px){
 	header h1{
 		font-size: 90px;
@@ -343,6 +415,31 @@ footer a:hover {
 	.container .blog {
 	width: 500px;
 	}
+	.four-posts {
+	width: 840px;
+	}
+	.four-posts .image1{
+	width: 200px;
+	height: 180px;
+	}
+	.four-posts .image2{
+	width: 200px;
+	height: 180px;
+	}
+
+	.four-posts .image3{
+	width: 200px;
+	height: 180px;
+	}
+
+	.four-posts .image4{
+	width: 200px;
+	height: 180px;
+	}
+
+	.four-posts .mask {
+	height: 180px;
+}
 
 }
 
@@ -353,6 +450,33 @@ footer a:hover {
 	.container .sidebar {
 		display: block;
 		width: 400px;
+	}
+	.image-article {
+	width: 100%;
+	background: rgba(213, 133, 47, 0);
+	}
+	.four-posts {
+	width: 220px;
+	}
+
+	.four-posts .image1{
+	display: block;
+	margin: 0 auto;
+	}
+
+	.four-posts .image2{
+	display: block;
+	margin: 0 auto;
+	}
+
+	.four-posts .image3{
+	display: block;
+	margin: 0 auto;
+	}
+
+	.four-posts .image4{
+	display: block;
+	margin: 0 auto;
 	}
 
 }
@@ -375,7 +499,7 @@ footer a:hover {
 @media (max-width: 400px){
 	header {
 		height: 170;
-		background: blue;
+		background: #EA6A20;
 	}
 	header h1{
 		font-size: 20px;
