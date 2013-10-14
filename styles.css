@@ -4,7 +4,7 @@ body {
 
 header {
 	width: 100%;
-	background: url(beer.jpeg) no-repeat;
+	background: url(deathvalley.jpeg) no-repeat;
 	background-position: center center;
 	background-size: cover;
 	background-attachment: fixed;
@@ -17,7 +17,7 @@ header {
 header .sub_header {
 	width: 100%;
 	height: 493px;
-	background: rgba(26, 80, 219, 0.76);
+	background: rgba(213, 133, 47, 0.76);
 	padding: 15px  0px;
 
 }
@@ -84,7 +84,7 @@ header h2 .search2{
 .container {
 	margin: 0 auto;
 	width: 1050px;
-	height: 1000px;
+
 }
 
 .container .blog {
@@ -189,19 +189,317 @@ header h2 .search2{
 	margin: 0 auto;
 	width: 275px;
 	height: 300px;
-	background: url(president.jpeg) no-repeat;
+	background: url(oldadd.jpg) no-repeat;
 	background-position: center center;
 	background-size: cover;
+	margin-bottom: 50px;
 }
+
+.container .sidebar .side-article {
+	margin: 0 auto;
+	width: 275px;
+}
+
+.container .sidebar .side-article h3 {
+	color: blue;
+	font-family: Oswald;
+	margin-top: 7px;
+	font-size: 17px;
+	margin-bottom: 0px;
+}
+
+.container .sidebar .side-article {
+	color: rgb(185, 184, 184);
+	font-family: sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+}
+
+
+h1{
+	font-family: Oswald;
+	font-size: 50px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
+.image-article {
+	width: 100%;
+	background: rgba(213, 133, 47, 0.76);
+}
+.four-posts {
+	margin: 0 auto;
+	width: 1410px;
+	
+
+}
+
+.four-posts .image1{
+	width: 340px;
+	height: 330px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	background: url(boyd.jpeg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-left: 20px;
+	position: relative;
+}
+
+.four-posts .mask {
+	width: 100%;
+	height: 330px;
+	background: rgba(213, 133, 47, 0.76);
+}
+
+.four-posts .mask:hover {
+	background: rgba(213, 133, 47, 0);
+}
+
+.four-posts h2	{
+	margin: 0;
+	font-family: Oswald;
+	
+	margin-left: 5px;
+	padding: 0;
+	position: absolute;
+	bottom: 0;
+}
+
+.four-posts .image2{
+	width: 340px;
+	height: 330px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	background: url(wake.jpeg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-left: -4px;
+	position: relative;
+}
+
+.four-posts .image3{
+	width: 340px;
+	height: 330px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	background: url(syracuse.jpg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-left: -4px;
+	position: relative;
+}
+
+.four-posts .image4{
+	width: 340px;
+	height: 330px;
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	background: url(ncsu.jpeg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	margin-left: -4px;
+	position: relative;
+}
+
+footer {
+	background: #EA6A20;
+	height: 93px;
+}
+
+footer {
+	position: relative;
+}
+
+footer .container .ironyard {
+	display: inline-block;
+}
+footer .container .ironyard .logo{
+	background: url(ironyard.jpeg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	display: inline-block;
+	margin-top: 20px;
+
+}
+
+footer .container .ironyard h3 {
+	display: inline-block;
+	font-family: sans-serif;
+}
+
+footer .container .ironyard2 {
+	display: block;
+	margin: 0 auto;
+	display: none;
+}
+footer .container .ironyard2 .logo{
+	background: url(ironyard.jpeg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+
+
+}
+
+footer .container .ironyard2 h3 {
+	display: inline-block;
+	font-family: sans-serif;
+	display: block;
+	text-align: center;
+}
+
+footer .container .foot-navigation {
+	display: inline-block;
+	position: absolute;
+	right: 0;
+	margin-top: 54px;
+}
+
+footer a {
+  color: black;
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-left: 10px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 1380px) {
+
+	.four-posts {
+	width: 1240px;
+	}
+	.four-posts .image1{
+	width: 300px;
+	height: 280px;
+	}
+	.four-posts .image2{
+	width: 300px;
+	height: 280px;
+	}
+
+	.four-posts .image3{
+	width: 300px;
+	height: 280px;
+	}
+
+	.four-posts .image4{
+	width: 300px;
+	height: 280px;
+	}
+
+	.four-posts .mask {
+	height: 280px;
+}
+
+}
+
+@media (max-width: 1180px) {
+	.four-posts {
+	width: 1040px;
+	}
+	.four-posts .image1{
+	width: 250px;
+	height: 220px;
+	}
+	.four-posts .image2{
+	width: 250px;
+	height: 220px;
+	}
+
+	.four-posts .image3{
+	width: 250px;
+	height: 220px;
+	}
+
+	.four-posts .image4{
+	width: 250px;
+	height: 220px;
+	}
+
+	.four-posts .mask {
+	height: 220px;
+}
+
+}
+
 
 
 @media (max-width: 1050px){
 	header h1{
 		font-size: 90px;
 	}
+	.container {
+	width: 925px;
+	}
 	.container .blog {
 	width: 500px;
 	}
+	.four-posts {
+	width: 840px;
+	}
+	.four-posts .image1{
+	width: 200px;
+	height: 180px;
+	}
+	.four-posts .image2{
+	width: 200px;
+	height: 180px;
+	}
+
+	.four-posts .image3{
+	width: 200px;
+	height: 180px;
+	}
+
+	.four-posts .image4{
+	width: 200px;
+	height: 180px;
+	}
+
+	.four-posts .mask {
+	height: 180px;
+	}
+
+	footer .container {
+		width: 850px;
+	}
+
+	footer .container .foot-navigation {
+	margin-top: 20px;
+	}
+
+	footer .container .foot-navigation a{
+		text-align: center;
+	}
+
+	footer .container .ironyard {
+		display: none;
+	}
+
+	footer .container .ironyard2 {
+		display:block!important;
+		padding-top: 40px;		
+	}
+
+	footer {
+		height: 155px;
+	}
+
+	
 
 }
 
@@ -209,16 +507,57 @@ header h2 .search2{
 	header h1{
 		font-size: 70px;
 	}
+	.container {
+	width: 700px;
+	}
+	.container .blog {
+		margin: 0 auto;
+	}
 	.container .sidebar {
+		margin: 0 auto;
 		display: block;
 		width: 400px;
 	}
+	.image-article {
+	width: 100%;
+	background: rgba(213, 133, 47, 0);
+	}
+	.four-posts {
+	width: 220px;
+	}
+
+	.four-posts .image1{
+	display: block;
+	margin: 0 auto;
+	}
+
+	.four-posts .image2{
+	display: block;
+	margin: 0 auto;
+	}
+
+	.four-posts .image3{
+	display: block;
+	margin: 0 auto;
+	}
+
+	.four-posts .image4{
+	display: block;
+	margin: 0 auto;
+	}
+	footer .container {
+		width: 650px;
+	}
+
 
 }
 
 @media (max-width: 650px){
 	header h1{
 		font-size: 45px;
+	}
+	.container {
+	width: 450px;
 	}
 	.container .blog {
 	width: 400px;
@@ -228,13 +567,21 @@ header h2 .search2{
 		display: block;
 		width: 400px;
 	}
+	footer .container {
+		width: 400px;
+	}
+
+	footer {
+		height: 180px;
+	}
+
 
 }
 
 @media (max-width: 400px){
 	header {
 		height: 170;
-		background: blue;
+		background: #EA6A20;
 	}
 	header h1{
 		font-size: 20px;
@@ -258,6 +605,10 @@ header h2 .search2{
 		background: rgba(26, 80, 219, 0);
 	}
 
+	.container {
+	width: 320px;
+	}
+
 	.container .blog {
 		width: 300px;
 	}
@@ -268,6 +619,12 @@ header h2 .search2{
 	.container .sidebar {
 		width: 300px;
 	}
+
+	footer .container .ironyard {
+	position: absolute;
+	bottom: 0;
+
+}
 
 
 }
