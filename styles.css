@@ -311,8 +311,12 @@ footer {
 	height: 93px;
 }
 
+footer {
+	position: relative;
+}
+
 footer .container .ironyard {
-	float: left;
+	display: inline-block;
 }
 footer .container .ironyard .logo{
 	background: url(ironyard.jpeg) no-repeat;
@@ -330,10 +334,36 @@ footer .container .ironyard h3 {
 	font-family: sans-serif;
 }
 
+footer .container .ironyard2 {
+	display: block;
+	margin: 0 auto;
+	display: none;
+}
+footer .container .ironyard2 .logo{
+	background: url(ironyard.jpeg) no-repeat;
+	background-position: center center;
+	background-size: cover;
+	width: 50px;
+	height: 50px;
+	display: block;
+	margin: 0 auto;
+	margin-top: 20px;
+
+
+}
+
+footer .container .ironyard2 h3 {
+	display: inline-block;
+	font-family: sans-serif;
+	display: block;
+	text-align: center;
+}
+
 footer .container .foot-navigation {
 	display: inline-block;
-	float: right;
-	margin-top: 20px;
+	position: absolute;
+	right: 0;
+	margin-top: 54px;
 }
 
 footer a {
@@ -412,6 +442,9 @@ footer a:hover {
 	header h1{
 		font-size: 90px;
 	}
+	.container {
+	width: 925px;
+	}
 	.container .blog {
 	width: 500px;
 	}
@@ -439,7 +472,34 @@ footer a:hover {
 
 	.four-posts .mask {
 	height: 180px;
-}
+	}
+
+	footer .container {
+		width: 850px;
+	}
+
+	footer .container .foot-navigation {
+	margin-top: 20px;
+	}
+
+	footer .container .foot-navigation a{
+		text-align: center;
+	}
+
+	footer .container .ironyard {
+		display: none;
+	}
+
+	footer .container .ironyard2 {
+		display:block!important;
+		padding-top: 40px;		
+	}
+
+	footer {
+		height: 155px;
+	}
+
+	
 
 }
 
@@ -447,7 +507,14 @@ footer a:hover {
 	header h1{
 		font-size: 70px;
 	}
+	.container {
+	width: 700px;
+	}
+	.container .blog {
+		margin: 0 auto;
+	}
 	.container .sidebar {
+		margin: 0 auto;
 		display: block;
 		width: 400px;
 	}
@@ -478,12 +545,19 @@ footer a:hover {
 	display: block;
 	margin: 0 auto;
 	}
+	footer .container {
+		width: 650px;
+	}
+
 
 }
 
 @media (max-width: 650px){
 	header h1{
 		font-size: 45px;
+	}
+	.container {
+	width: 450px;
 	}
 	.container .blog {
 	width: 400px;
@@ -493,6 +567,14 @@ footer a:hover {
 		display: block;
 		width: 400px;
 	}
+	footer .container {
+		width: 400px;
+	}
+
+	footer {
+		height: 180px;
+	}
+
 
 }
 
@@ -523,6 +605,10 @@ footer a:hover {
 		background: rgba(26, 80, 219, 0);
 	}
 
+	.container {
+	width: 320px;
+	}
+
 	.container .blog {
 		width: 300px;
 	}
@@ -533,6 +619,12 @@ footer a:hover {
 	.container .sidebar {
 		width: 300px;
 	}
+
+	footer .container .ironyard {
+	position: absolute;
+	bottom: 0;
+
+}
 
 
 }
